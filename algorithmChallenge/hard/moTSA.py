@@ -7,3 +7,8 @@ class Solution(object):
         else:
             return (merged[n // 2 - 1] + merged[n // 2]) / 2.0
         
+nums1 = [1, 3, 4, 5]
+nums2 = [9]
+
+sol = Solution()
+print(sol.findMedianofSortedArray(nums1, nums2))
